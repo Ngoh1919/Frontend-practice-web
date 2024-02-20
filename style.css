@@ -1,3 +1,77 @@
-body{
-    color:black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height:500px;
+}
+.logo{
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    margin-left: 25px;
+}
+.logo h2{
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'GT America Standard', sans-serif;
+}
+.logo h2:hover{
+    text-decoration: underline;
+}
+.logo div{
+    width: 1px;
+    background-color: white;
+    height:40px;
+    margin-top: 5px;
+    
+}
+.logo img{
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+.navigate{
+    padding: 4px;
+    margin-right: 100px;
+}
+.request{
+    background-color: #191a1b;
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.sign-in{
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    size: 12px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.sign-in:hover{
+    background-color: white;
+    color: black;
 }

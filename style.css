@@ -24,14 +24,26 @@ body, html{
     padding: 24px;
     align-items: center;
     margin-left: 25px;
+
 }
 .logo h2{
+    font-size: 23px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'GT America Standard', sans-serif;
+}
+.part-log{
+    font-size: 23px;
     padding: 15px;
     cursor: pointer;
     font-family: 'GT America Standard', sans-serif;
 }
 .logo h2:hover{
     text-decoration: underline;
+}
+.link{
+    display: flex;
+   justify-content: space-between;
 }
 .logo div{
     width: 1px;
@@ -40,8 +52,9 @@ body, html{
     margin-top: 5px;
     
 }
-.logo img{
-    width: 150px;
+.logo svg {
+    height: 71px;
+    width: 71px;
     padding: 10px;
     cursor: pointer;
 }
@@ -74,4 +87,105 @@ body, html{
 .sign-in:hover{
     background-color: white;
     color: black;
+}
+
+/* section-1 */
+.section-1{
+    background-color: #dadbf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+.section-1 h1{
+    font-size: 70px;
+    padding: 30px;
+    font-family: "GT America Standard", sans-serif;
+    
+}
+.section-1 input{
+    padding: 18px;
+    min-width: 700px;
+    border-radius: 5px;
+    border-color: #4C5FD5;
+    box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+    font: inherit;
+
+}
+
+.learn-more_grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    grid-template-columns: 350px 350px;
+    padding: 100px 0;
+    background-color: white;
+}
+.learn-more{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 70px;
+}
+.learn-more_stuff{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    line-height: 20px;
+}
+.learn-more_stuff p{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-size: larger;
+}
+.learn-more_stuff h4{
+    font-size: 20px;
+}
+.learn-more_stuff h5{
+    font-size: larger;
+    color: #4C5FD5;
+}
+.learn-more_stuff h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*footer*/
+.footer{
+    color:white;
+    background-color: black;
+    margin-top: auto;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    gap: 150px;
+    justify-content: center;
+   
+}
+.footer-info{
+    padding-top: 30px;
+    width: 200px;
+}
+ul,h5{
+    list-style: none;
+    padding: 10px;
+}
+.footer-info h4{
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-infos svg{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.footer-infos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height:12px;
 }
